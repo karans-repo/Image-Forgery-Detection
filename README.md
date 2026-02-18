@@ -2,21 +2,19 @@
 
 This repository contains two main folders:
 
-1. **IFAKE_AI** - This folder contains the AI Jupyter notebook files used to create the proposed CNN model for forgery detection and classification. The notebook files demonstrate the process of training and testing the model on the FIDAC & CASIA dataset.
+1. **IFD_AI** – Contains Jupyter notebooks developed to build and train a CNN-based image and video forgery detection model using the FIDAC and CASIA datasets.
 
-2. **IFAKE_WebApp** - This folder contains the web application project. The web application is built on the Django framework and provides a user-friendly interface for detecting image and video forgeries.
+2. **IFD_WebApp** – Contains a Django-based web application built to provide a user-friendly interface for detecting image and video forgeries in real time.
 
-## Research Paper and Dataset
+## Dataset
 
-Our research paper titled "[Image Forgery Detection and Classification Using Deep Learning and FIDAC Dataset](https://ieeexplore.ieee.org/document/9862034)" is published on IEEE Explore. In this paper, we propose our model that uses CNN for classification after being fed with ELA preprocessed images to detect image forgery, and we also introduce our created dataset - FIDAC (Forged Images Detection And Classification), which consists of original cameraclicked images along with their tampered version. Furthermore, we conducted an experimental analysis wherein we compared our proposed CNN model with famous pre-defined models on various datasets combinations.
+This project utilizes the publicly available FIDAC (Forged Images Detection and Classification) dataset provided by an IEEE-published study. The dataset consists of original camera-clicked images along with their tampered versions and was used for training and evaluating the CNN model.
 
-The [FIDAC dataset](https://ieee-dataport.org/documents/fidac-forged-images-detection-and-classification) is available on IEEE Dataport and contains original camera-clicked images along with their tampered versions. The dataset was used to train and test our proposed CNN model and compare it with other pre-defined models on various datasets combinations.
-
-
+Using this dataset, I designed and implemented the complete forgery detection pipeline, including ELA preprocessing, CNN model training, performance evaluation, and deployment through a Django web application.
 
 ## Pre-trained Models
 
-We provide links to download our pre-trained models for image & video forgery detection and classification:
+Pretrained weights used during experimentation are provided below:
 
 - [Image Model weigths](https://drive.google.com/drive/folders/1B4ODeK_QQ6XMFo6i6EEup1nZC6PllVfu?usp=sharing)
 - [Video Model weigths](https://drive.google.com/drive/folders/1irYZbRnr4Y7jKieSyhjxHxwk43oSMqh-?usp=sharing)
