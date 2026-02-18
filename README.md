@@ -1,4 +1,4 @@
-
+## IFD
 
 This repository contains two main folders:
 
@@ -51,7 +51,7 @@ To run the web application on Windows, Linux, or Mac, follow these steps:
 
 
 
-The screenshots show different features of our web application, including the image and video forgery detection functionality, and the ability to upload and view results of detected forgeries.
+The screenshots show different features of my web application, including the image and video forgery detection functionality, and the ability to upload and view results of detected forgeries.
 
 
 
